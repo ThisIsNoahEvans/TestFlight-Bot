@@ -19,8 +19,8 @@ class colour:
     END = '\033[0m'
 
 #Connect To Twitter APIs
-auth = tweepy.OAuthHandler("IYUdNp1sps8TZosk3dpDwErhP", "4t35HTrJTjbtg3zye8dUv0dOgrZOBD9sik8u06zrl26nlJcOQM")
-auth.set_access_token("896644687301414913-eHxTFVqWZO32r8HEHiA6ypJINm53iUf", "d1bJO9Yc0IP7NNL7QlSZaJli7LbPIrQFodKh7voNTCtJ1")
+auth = tweepy.OAuthHandler("API", "API")
+auth.set_access_token("API", "API")
 api = tweepy.API(auth)
 
 #Define User Agent
